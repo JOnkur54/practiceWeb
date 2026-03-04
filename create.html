@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Register</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+display:flex;
+}
+
+.sidebar{
+width:200px;
+background:black;
+color:white;
+height:100vh;
+padding:20px;
+}
+
+.sidebar p{
+margin:10px 0;
+padding:8px;
+}
+
+.active{
+background:green;
+}
+
+.main{
+flex:1;
+display:flex;
+justify-content:center;
+align-items:center;
+background:#f0f0f0;
+}
+
+.box{
+background:white;
+padding:25px;
+width:280px;
+border:1px solid gray;
+}
+
+input,select{
+width:100%;
+padding:8px;
+margin-bottom:10px;
+}
+
+button{
+background:green;
+color:white;
+border:none;
+padding:10px;
+width:100%;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="sidebar">
+
+<h2>TechFlow</h2>
+
+<p>Login</p>
+<p class="active">Registration</p>
+
+</div>
+
+<div class="main">
+
+<div class="box">
+
+<h2>Create Account</h2>
+
+<label><b>Email Address</b></label>
+<input type="email">
+
+<label><b>Password</b></label>
+<input type="password">
+
+<label><b>Gender</b></label>
+<select>
+<option>Male</option>
+<option>Female</option>
+</select>
+
+<button>Register</button>
+
+</div>
+
+</div>
+
+</body>
+</html>
